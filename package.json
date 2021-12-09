@@ -1,11 +1,11 @@
 {
   "name": "example-typescript-repo",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "dist/index",
   "types": "dist/index.d",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/warren-sadler/example-typescript-repo.git"
+    "url": "https://github.com/warren-sadler/example-typescript-repo.git"
   },
   "author": "Warren Sadler <42621284+warren-sadler@users.noreply.github.com>",
   "license": "MIT",
@@ -19,7 +19,8 @@
     "build": "scripty",
     "typecheck": "scripty",
     "clean": "rimraf dist",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "description": "",
@@ -42,7 +43,8 @@
     "scripty": "^2.0.0",
     "ts-jest": "^27.1.1",
     "ts-node": "^10.4.0",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.2",
+    "semantic-release": "^18.0.1"
   },
   "scripty": {
     "path": "./scripts"
