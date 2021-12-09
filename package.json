@@ -1,0 +1,20 @@
+{
+  "name": "example-typescript-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/warren-sadler/example-typescript-repo.git"
+  },
+  "author": "Warren Sadler <42621284+warren-sadler@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warren-sadler/example-typescript-repo/issues"
+  },
+  "homepage": "https://github.com/warren-sadler/example-typescript-repo#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": ""
+}
